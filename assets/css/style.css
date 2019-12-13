@@ -665,3 +665,26 @@ a,a:hover{
 #peduliFilter .button:hover{
 	background-color: #0d5a38
 }
+
+
+/*tentang_gedung*/
+.gedung{
+	min-width: 140vw !important;
+}
+
+.geser-kanan{
+	margin-left: 20%;
+	visibility: visible;
+}
+
+.gedung-image{
+	max-width: 65vw;
+	height: 100vh !important;
+	vertical-align: top;
+
+	background-image: url(../images/bg/gedung.jpg);
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	}
+/*end tentang_gedung*/
