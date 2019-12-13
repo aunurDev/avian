@@ -674,14 +674,14 @@ a,a:hover{
 
 /* custom hoover background*/
 .push-right{
-	margin-left: 36%;
+	margin-left: 34vw;
 	display: none;
 	transition: opacity 0.25s ease;
 }
 
 #hov-bg{
 	background-image: url(../images/bg/gedung.jpg);
-	max-width: 64vw;
+	max-width: 66vw;
 	height: 100vh !important;
 	vertical-align: top;
 	background-position: center;
