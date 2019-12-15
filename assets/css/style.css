@@ -666,8 +666,45 @@ a,a:hover{
 	background-color: #0d5a38
 }
 
-
+ 
 /*tentang_gedung*/
+.gedung{
+	min-width: 380vw !important;
+	height: 100vh !important;
+	display: inline-block;
+	background-image: url(../images/bg.png);
+	background-position: bottom;
+	background-size: auto 50%;
+	background-repeat: repeat-x;
+}
+
+.box-gedung{
+	height: 100vh !important;
+}
+
+#box1 .pad-box{
+	/*padding: 100px 180px 50px 120px;*/
+	padding: 50px 80px 50px 90px;
+}
+
+#box1 .bg-full{
+	background-image: url(../images/gedung/page-gedung1.jpg);
+	background-size: cover;
+	background-position: center;
+	height: 100vh !important;
+}
+
+/*box sizing text*/
+/*.box-gedung#box1{
+	background-color: rgb(50, 168, 82);
+}
+.box-gedung#box2{
+	background-color: rgb(50, 168, 152);
+}
+.box-gedung#box3{
+	background-color: rgb(91, 50, 168);
+}*/
+
 
 /*end tentang_gedung*/
 
@@ -687,7 +724,5 @@ a,a:hover{
 	background-position: center;
 	background-size: cover;
 	position: relative;
-
-
 }
 /* end custom hoover background */
