@@ -683,9 +683,9 @@ a,a:hover{
 }
 
 #box1 .pad-box{
-	/*padding: 100px 180px 50px 120px;*/
 	padding: 50px 80px 50px 90px;
 }
+
 
 #box1 .bg-full{
 	background-image: url(../images/gedung/page-gedung1.jpg);
@@ -694,20 +694,45 @@ a,a:hover{
 	height: 100vh !important;
 }
 
-/*box sizing text*/
-/*.box-gedung#box1{
-	background-color: rgb(50, 168, 82);
-}
-.box-gedung#box2{
-	background-color: rgb(50, 168, 152);
-}
-.box-gedung#box3{
-	background-color: rgb(91, 50, 168);
-}*/
 
+#box2 .pad-box{
+	padding: 50px;
+}
+
+
+#box2 .bg-full{
+	margin: -55px -50px 0 -20px;
+	background-image: url(../images/gedung/page-gedung2.jpg);
+	background-size: 65%;
+	background-position: center;
+	height: 100vh !important;
+	background-repeat: no-repeat;
+}
+
+#box2 .box1{
+	padding-top: 10px;
+	height: 40vh !important;
+	width: 40vw !important;
+}
+#box2 .box2{
+	height: 45vh !important;
+}
+
+#box2 .bg-half{
+	background-image: url(../images/gedung/page-gedung3.jpg);
+	background-position: top-center;
+	background-size: 90%;
+	height: 100vw;
+	background-repeat: no-repeat;	
+}
+
+#box3{
+	background-image: url(../images/gedung/page-gedung4.jpg);
+	background-size: cover;
+	background-position: center;
+}
 
 /*end tentang_gedung*/
-
 
 /* custom hoover background*/
 .push-right{
