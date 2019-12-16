@@ -732,6 +732,31 @@ a,a:hover{
 	background-position: center;
 }
 
+#box4 .pad-box{
+	width: 80vw !important;
+	height: 80vh !important;
+	margin-top: 10vh !important;
+	margin-left: 10vw !important;
+}
+
+#box4 .bg-full{
+	margin-top: 5vh;
+	background-image: url(../images/gedung/page-gedung5.jpg);
+	background-size: cover;
+	background-position: bottom;
+	height: 50vh !important;
+}
+
+#box4 .full-img{
+	background-image: url(../images/gedung/page-gedung6.jpg);
+	background-size: 80%;
+	background-position: center;
+	height: 80vh !important;
+	background-repeat: no-repeat;
+}
+
+
+
 /*end tentang_gedung*/
 
 /* custom hoover background*/
