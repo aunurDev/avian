@@ -810,15 +810,24 @@ a,a:hover{
 
 /* custom hoover background*/
 .push-right{
-	margin-left: 34vw;
+	margin-left: 30vw;
 	display: none;
 	transition: opacity 0.25s ease;
 }
 
-.hov-bg{
-	display: none;
+#gedung .hov-bg{
 	background-image: url(../images/bg/gedung.jpg);
-	max-width: 66vw;
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#aic .hov-bg{
+	background-image: url(../images/bg/aic.jpg);
+	max-width: 70vw;
 	height: 100vh !important;
 	vertical-align: top;
 	background-position: center;
