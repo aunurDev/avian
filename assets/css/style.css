@@ -759,6 +759,7 @@ a,a:hover{
 
 /* tentang_aic */
 .aic{
+
 	width: 200vw !important;
 	height: 100vh !important;	
 	display: inline-block;
@@ -766,39 +767,68 @@ a,a:hover{
 	background-position: bottom;
 	background-size: auto 50%;
 	background-repeat: repeat-x;
+	overflow: hidden;
 }
 
-.aic .half-side{
-	width: 100vw;
-	height: 100vh;
+.aic .box1{
+	height: 100vh !important;
+	width: 100vw !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.aic .box2{
+	height: 100vh !important;
+	width: 99vw !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	overflow: hidden;
 }
 
 .aic .pad-box{
-	padding : 10%;
+	padding: 10%;
+	background-size: cover;
+	
 }
 
-.aic .full-img{
+.box1 .full-img{
 	background-image: url(../images/aic/page-aic1.jpg);
+	height: 100vh !important;
+	width: 55vw !important;
 	background-size: cover;
 	background-position: center;
-	height: 100vh !important;
-	background-repeat: no-repeat;
-	width: 40vw;
 }
 
+.box2 .full-img{
+	background-image: url(../images/aic/page-aic2.jpg);
+	height: 100vh !important;
+	width: 58vw !important;
+	background-size: cover;
+	background-position: center;
+}
 /* end tentang_aic*/
 
 /* custom hoover background*/
 .push-right{
-	margin-left: 34vw;
+	margin-left: 30vw;
 	display: none;
 	transition: opacity 0.25s ease;
 }
 
-.hov-bg{
-	display: none;
+
+#gedung .hov-bg{
 	background-image: url(../images/bg/gedung.jpg);
-	max-width: 66vw;
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#aic .hov-bg{
+	background-image: url(../images/bg/aic.jpg);
+	max-width: 70vw;
 	height: 100vh !important;
 	vertical-align: top;
 	background-position: center;
