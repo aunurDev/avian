@@ -701,11 +701,12 @@ a,a:hover{
 
 
 #box2 .bg-full{
-	margin: -55px -50px 0 -20px;
+	margin: 5vh 5vw 0 5vw;
 	background-image: url(../images/gedung/page-gedung2.jpg);
-	background-size: 65%;
+	background-size: cover;
 	background-position: center;
-	height: 100vh !important;
+	height: 80vh !important;
+	width: 30vw;
 	background-repeat: no-repeat;
 }
 
@@ -745,19 +746,67 @@ a,a:hover{
 	background-size: cover;
 	background-position: bottom;
 	height: 50vh !important;
-}
+} 
 
 #box4 .full-img{
 	background-image: url(../images/gedung/page-gedung6.jpg);
 	background-size: 80%;
 	background-position: center;
-	height: 80vh !important;
+	height: 77vh !important;
 	background-repeat: no-repeat;
+}
+/*end tentang_gedung*/
+
+/* tentang_aic */
+.aic{
+	width: 198vw !important;
+	height: 100vh !important;	
+	display: inline-block;
+	background-image: url(../images/bg.png);
+	background-position: bottom;
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+.aic .box1{
+	height: 100vh !important;
+	width: 100vw !important;
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.aic .box2{
+	height: 100vh !important;
+	width: 99vw !important;
+	margin: 0px !important;
+	padding: 0px !important;
+	overflow: hidden;
+}
+
+.aic .pad-box{
+	padding: 10%;
+	background-size: cover;
+	
+}
+
+.box1 .full-img{
+	background-image: url(../images/aic/page-aic1.jpg);
+	height: 100vh !important;
+	width: 55vw !important;
+	background-size: cover;
+	background-position: center;
+}
+
+.box2 .full-img{
+	background-image: url(../images/aic/page-aic2.jpg);
+	height: 100vh !important;
+	width: 58vw !important;
+	background-size: cover;
+	background-position: center;
 }
 
 
-
-/*end tentang_gedung*/
+/* end tentang_aic*/
 
 /* custom hoover background*/
 .push-right{
@@ -766,7 +815,8 @@ a,a:hover{
 	transition: opacity 0.25s ease;
 }
 
-#hov-bg{
+.hov-bg{
+	display: none;
 	background-image: url(../images/bg/gedung.jpg);
 	max-width: 66vw;
 	height: 100vh !important;
@@ -775,4 +825,5 @@ a,a:hover{
 	background-size: cover;
 	position: relative;
 }
+
 /* end custom hoover background */
