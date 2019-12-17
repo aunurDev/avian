@@ -43,6 +43,17 @@ $(document).ready(function(){
 		});
 	});
 
+	$('#link-warna').mouseenter(function(){
+		if ($("#warna.push-right").css("display", "block")) {
+			$("#content").css("display", "none");	
+		}
+		$(this).mouseleave(function(){
+			if ($(".push-right").css("display", "none")) {
+				$("#content").css("display", "block");
+			}	
+		});
+	});
+
 
 }); // end hoover background
 

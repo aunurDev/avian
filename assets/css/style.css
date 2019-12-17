@@ -282,6 +282,10 @@ a,a:hover{
 	margin-top: 160px;
 }
 
+.warna-menu{
+	margin-top: 70px;
+}
+
 .mr{
 	margin-left: 100px;
 }
@@ -759,8 +763,8 @@ a,a:hover{
 
 /* tentang_aic */
 .aic{
-
-	width: 200vw !important;
+	padding-left: 1vw;
+	width: 199vw !important;
 	height: 100vh !important;	
 	display: inline-block;
 	background-image: url(../images/bg.png);
@@ -779,10 +783,15 @@ a,a:hover{
 
 .aic .box2{
 	height: 100vh !important;
-	width: 99vw !important;
+	width: 100vw !important;
 	margin: 0px !important;
 	padding: 0px !important;
 	overflow: hidden;
+}
+
+.box2 p, .box2 h2{
+	/*padding-left: 40px;*/
+	padding-left: 2.5vw;
 }
 
 .aic .pad-box{
@@ -807,6 +816,8 @@ a,a:hover{
 	background-position: center;
 }
 /* end tentang_aic*/
+
+
 
 /* custom hoover background*/
 .push-right{
@@ -836,4 +847,13 @@ a,a:hover{
 	position: relative;
 }
 
+#warna .hov-bg{
+	background-image: url(../images/bg/warna.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
 /* end custom hoover background */
