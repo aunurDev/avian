@@ -818,6 +818,207 @@ a,a:hover{
 /* end tentang_aic*/
 
 
+/* produk_warna */
+.warna{
+	height: 100vh !important;	
+	background-image: url(../images/bg.png);
+	background-position: bottom;
+	background-size: auto 50%;
+	background-repeat: repeat-x;
+	padding: 5%; 
+}
+
+.warna h2{
+	margin-left: 30px;
+}
+
+.warna .boxround{
+	padding : 15px 30px 30px 30px;
+	margin-top: 3vh;
+	background-color: rgb(252, 253, 255);
+	height: 73.5vh;
+	border-radius: 8px;
+}
+
+.boxround p{
+	margin-top: 8px;
+	margin-bottom: -6px;
+}
+	
+.boxround p span{
+	margin-left: 10px;
+}
+
+.boxround .btn-outline-success{
+	margin-top: 8px;
+	margin-left: 60px;
+	border: 1.5px solid green;
+	background-color: white;
+	border-radius: 20px; 
+}
+
+.btn-outline-success .margin{
+	margin: 0 10px; 
+}
+
+.boxround .box{
+	height: 12vh;
+	border: 2px solid white;
+	/*padding-top: 45px;*/
+	padding-top: 4%;
+	text-align: left;
+}
+
+.row1{
+	margin-top: 15px;
+}
+
+.row1 .col1{
+	color: #6a6e71;
+	background-color: #cec8b2;
+}
+.row1 .col2{
+	color: #6a6e71;
+	background-color: #c1b5a5;
+}
+
+.row1 .col3{
+	color: #6a6e71;
+	background-color: #b0a494;
+}
+
+.row1 .col4{
+	color: #d2d2d2;
+	background-color: #998c7b;
+}
+
+.row1 .col5{
+	color: #d2d2d2;
+	background-color: #7f7667;
+}
+
+.row1 .col6{
+	color: #d2d2d2;
+	background-color: #6e5e51;
+}
+
+.row2 .col1{
+	color: #6a6e71;
+	background-color: #cec0b5;
+}
+.row2 .col2{
+	color: #6a6e71;
+	background-color: #b9ab9e;
+}
+
+.row2 .col3{
+	color: #6a6e71;
+	background-color: #a9998c;
+}
+
+.row2 .col4{
+	color: #d2d2d2;
+	background-color: #9a8a7d;
+}
+
+.row2 .col5{
+	color: #d2d2d2;
+	background-color: #7b6d64;
+}
+
+.row2 .col6{
+	color: #d2d2d2;
+	background-color: #645b4c;
+}
+
+.row3 .col1{
+	color: #6a6e71;
+	background-color: #c7c1b3;
+}
+.row3 .col2{
+	color: #6a6e71;
+	background-color: #b5afa1;
+}
+
+.row3 .col3{
+	color: #6a6e71;
+	background-color: #a39e8b;
+}
+
+.row3 .col4{
+	color: #d2d2d2;
+	background-color: #8f8c7b;
+}
+
+.row3 .col5{
+	color: #d2d2d2;
+	background-color: #787264;
+}
+
+.row3 .col6{
+	color: #d2d2d2;
+	background-color: #605f4d;
+}
+
+.row4 .col1{
+	color: #6a6e71;
+	background-color: #d0ccc0;
+}
+.row4 .col2{
+	color: #6a6e71;
+	background-color: #c0b9af;
+}
+
+.row4 .col3{
+	color: #6a6e71;
+	background-color: #b0aba5;
+}
+
+.row4 .col4{
+	color: #d2d2d2;
+	background-color: #96938e;
+}
+
+.row4 .col5{
+	color: #d2d2d2;
+	background-color: #827f78;
+}
+
+.row4 .col6{
+	color: #d2d2d2;
+	background-color: #60615b;
+}
+
+.row5 .col1{
+	color: #6a6e71;
+	background-color: #dedcd0;
+}
+.row5 .col2{
+	color: #6a6e71;
+	background-color: #d1cec7;
+}
+
+.row5 .col3{
+	color: #6a6e71;
+	background-color: #aeb1aa;
+}
+
+.row5 .col4{
+	color: #d2d2d2;
+	background-color: #919692;
+}
+
+.row5 .col5{
+	color: #d2d2d2;
+	background-color: #696c71;
+}
+
+.row5 .col6{
+	color: #d2d2d2;
+	background-color: #455052;
+}
+/* end produk_warna */
+
 
 /* custom hoover background*/
 .push-right{
