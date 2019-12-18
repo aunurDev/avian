@@ -849,11 +849,11 @@ a,a:hover{
 	margin-left: 10px;
 }
 
-.boxround .btn-outline-success{
+.warna .btn-outline-success{
 	margin-top: 8px;
 	margin-left: 60px;
 	border: 1.5px solid green;
-	background-color: white;
+	background-color: none;
 	border-radius: 20px; 
 }
 
@@ -1017,6 +1017,73 @@ a,a:hover{
 	color: #d2d2d2;
 	background-color: #455052;
 }
+
+
+.dropdown-warna{
+	position: relative;
+	display: inline-block;
+}
+
+.dropdown-content-warna{
+	 border-top: 10px solid #e7ece6;
+	 display: none;
+	 position: absolute;
+	 background-color: #ffffff;
+	 min-width: 200px;
+	 z-index: 1;
+	 border-radius: 18px 18px 10px 10px;
+	 padding : 8px;
+}
+
+.dropdown-content-warna ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+}
+
+.dropdown-content-warna li{
+	width: 15vw;
+	padding: 3px 10px;
+	border-radius: 6px; 
+}
+
+.dropdown-content-warna .headlink{
+	margin: 5px 0;
+	width: 15vw;
+	background-color: #ebebeb;
+	border-radius: 6px;
+}
+
+.dropdown-content-warna .button-drop{
+	
+}
+
+
+.button-drop .btn-outline-success-nav{
+	margin-top: 8px;
+	border: 1.5px solid green;
+	background-color: none;
+	border-radius: 16px; 
+}
+/*.dropdown-content-warna a{
+	 color: black;
+	 padding: 8px 10px;
+	 text-decoration: none;
+	 display: block;
+}*/
+
+/* Change color of dropdown links on hover */
+.dropdown-content-warna li:hover {
+	background-color: #f9f9f9;
+}
+/* Show the dropdown menu on hover */
+.dropdown-warna:hover .dropdown-content-warna {
+	display: block;
+}
+
+
+
 /* end produk_warna */
 
 
