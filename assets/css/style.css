@@ -1055,23 +1055,89 @@ a,a:hover{
 	border-radius: 6px;
 }
 
-.dropdown-content-warna .button-drop{
-	
-}
-
 
 .button-drop .btn-outline-success-nav{
-	margin-top: 8px;
+	margin-top: 10px;
 	border: 1.5px solid green;
 	background-color: none;
 	border-radius: 16px; 
 }
-/*.dropdown-content-warna a{
-	 color: black;
-	 padding: 8px 10px;
-	 text-decoration: none;
-	 display: block;
-}*/
+
+ /* custom checkbox */
+ .content-check{
+ 	font-weight: normal;
+ 	display: block;
+    position: relative;
+    padding-left: 10px; 
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+ }
+
+li .rowcheck{
+	padding-bottom: 2px;
+	margin-bottom: -5px;
+}
+
+li .padcheck{
+	margin-top: 5px;
+}
+
+li .textcheck{
+	margin-left: -5px;
+}
+
+li .textcheck p{
+	margin-bottom: -3px;
+}
+
+ .content-check input{
+ 	padding-top: 10px;
+ 	position: absolute;
+    opacity: 0;
+    cursor: pointer;
+ }
+
+ .content-check .checkmark{
+ 	position: absolute;
+    top: 0;
+    left: 0;
+    height: 12px;
+    width: 12px;
+    background-color: #eee;
+    border-radius: 3px;
+    border: 1.5px solid #01532f;
+ }
+
+.content-check input:checked ~ .checkmark {
+    background-color: #01532f;
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+.content-check input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.content-check .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+
+
 
 /* Change color of dropdown links on hover */
 .dropdown-content-warna li:hover {
