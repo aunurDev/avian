@@ -875,7 +875,7 @@ a,a:hover{
 
 .row1 .box:hover, .row2 .box:hover, .row3 .box:hover, .row4 .box:hover, .row5 .box:hover{
 	transform: scale(1.2);
-	transition: all 1s;
+	transition: all 0.5s;
 	z-index: 2;
 	border: none;
 	box-shadow: 0 8px 6px -6px rgba(68,68,68,0.6);
@@ -1053,7 +1053,7 @@ a,a:hover{
 
 .dropdown-content-warna li{
 	width: 15vw;
-	padding: 3px 10px;
+	padding: 4px 10px;
 	border-radius: 6px; 
 }
 
@@ -1070,7 +1070,10 @@ a,a:hover{
 	border: 1.5px solid green;
 	background-color: none;
 	border-radius: 16px; 
-	background-color: white;
+}
+
+.button-drop .hapus{
+	padding: 0 7px;
 }
 
  /* custom checkbox */
