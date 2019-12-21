@@ -853,7 +853,7 @@ a,a:hover{
 	margin-top: 8px;
 	margin-left: 60px;
 	border: 1.5px solid green;
-	background-color: none;
+	background-color: #e7ece6;
 	border-radius: 20px; 
 }
 
@@ -1068,7 +1068,7 @@ a,a:hover{
 .button-drop .btn-outline-success-nav{
 	margin-top: 10px;
 	border: 1.5px solid green;
-	background-color: none;
+	background-color: #ffffff;
 	border-radius: 16px; 
 }
 
@@ -1206,6 +1206,40 @@ li .textcheck p{
 	height: 22vh;
 	width: 33vw;
 }
+
+.detail_warna .cat-img{
+	margin-top: 0.5vh;
+	height: 21vh;
+}
+
+.detail_warna .cat-text{
+	margin-left: -20px;
+	margin-top: -30px;
+}
+
+.detail_warna .text-desc{
+	padding-right:20px;
+	margin-left: -20px;
+	margin-top: -75px;
+	font-size: 12px;
+	text-align: left;
+	margin-bottom: -13px;
+}
+
+.detail_warna .btn-detail{
+	border: 1px solid #01532f;
+	padding: 3px 70px;
+	border-radius: 25px;
+	margin-top: -20px;
+	background-color: #ffffff;
+}
+
+.detail_warna .btn-detail:hover{
+	transition: all 0.3s;
+	background-color: #01532f;
+	color: white;
+}
+
 /* end_detail_warna */
 
 
