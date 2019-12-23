@@ -1243,6 +1243,74 @@ li .textcheck p{
 /* end_detail_warna */
 
 
+/* berita_pers */
+.berita_pers{
+	padding: 0px !important
+	margin-left: 5vw;
+	height: 100vh !important;
+	width: 100vw !important;
+	display: inline-block;
+	background-image: url(../images/bg.png);
+	background-position: bottom;
+	background-size: auto 50%;
+	background-repeat: repeat-x;
+	overflow: hidden;
+}
+
+
+.berita_pers .box0{
+	width: 90vw;
+	height: 90vh;
+	margin: 5vh 0 5vw 7.5vw;
+	padding-top: 3vh; 
+}
+
+.berita_pers .box1{
+	height: 85vh;
+	padding-left: 2vw;
+	padding-top: 3vh;
+}
+
+.berita_pers .box1 .head-p{
+	padding-left: 2vw;
+	margin: 10px 0;
+}
+
+.berita_pers .box1 .card{
+	margin-left: 3vw;
+	margin-top: 5vh;
+	width: 18vw;
+	height: 55vh;
+	background-color: white;
+	padding: 0px !important;
+	border-radius: 8px;
+	overflow: hidden;
+}
+
+.berita_pers .box1 .card .banner{
+	height: 20vh;
+	background-image: url(../images/pers/page-pers1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.berita_pers .box1 .card .card-content{
+	padding: 2vh 2vw;
+}
+
+.berita_pers .box1 .card .card-content .lowtext{
+	font-size: 10px;
+}
+
+.berita_pers .box1 .card .card-content .link-text{
+	font-size: 13px;
+	padding-top: 1.5vh;
+	text-align: right; 
+}
+/* end berita_pers */
+
+
 /* custom hoover background*/
 .push-right{
 	margin-left: 30vw;
@@ -1268,11 +1336,21 @@ li .textcheck p{
 	vertical-align: top;
 	background-position: center;
 	background-size: cover;
-	position: rlative;
+	position: relative;
 }
 
 #warna .hov-bg{
 	background-image: url(../images/bg/warna.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#pers .hov-bg{
+	background-image: url(../images/bg/pers.jpg);
 	max-width: 70vw;
 	height: 100vh !important;
 	vertical-align: top;

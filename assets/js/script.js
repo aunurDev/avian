@@ -54,6 +54,17 @@ $(document).ready(function(){
 		});
 	});
 
+	$('#link-pers').mouseenter(function(){
+		if ($("#pers.push-right").css("display", "block")) {
+			$("#content").css("display", "none");	
+		}
+		$(this).mouseleave(function(){
+			if ($(".push-right").css("display", "none")) {
+				$("#content").css("display", "block");
+			}	
+		});
+	});
+
 	var menu = new cbpTooltipMenu( document.getElementById( 'cbp-tm-menu' ) );
 }); // end hoover background
 
