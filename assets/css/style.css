@@ -35,7 +35,6 @@
 body, html{
 	margin: 0px;
 	padding: 0px;
-	/*background-color: #fff;*/
 	overflow-y: hidden !important;
 	max-height: 100vh !important;
 	padding-right: 0px !important;
@@ -1261,7 +1260,7 @@ li .textcheck p{
 .berita_pers .box0{
 	width: 90vw;
 	height: 90vh;
-	margin: 5vh 0 5vw 7.5vw;
+	margin: 9vh 0 5vw 7.5vw;
 	padding-top: 3vh; 
 }
 
@@ -1277,9 +1276,9 @@ li .textcheck p{
 }
 
 .berita_pers .box1 .card{
-	margin-left: 3vw;
+	margin-left: 2vw;
 	margin-top: 5vh;
-	width: 18vw;
+	width: 16vw;
 	height: 55vh;
 	background-color: white;
 	padding: 0px !important;
@@ -1307,6 +1306,55 @@ li .textcheck p{
 	font-size: 13px;
 	padding-top: 1.5vh;
 	text-align: right; 
+}
+
+.berita_pers .box2{
+	padding-top: 5vh;
+}
+
+.berita_pers .box2 .card{
+	background-color: white;
+	width: 23vw;
+	height: 20vh;
+	margin-left: 2vw;
+	margin-bottom: 3vh;
+	border-radius: 8px;
+}
+
+.berita_pers .box2 .card-banner{
+	background-color: blue;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 20vh;
+	background-image: url(../images/pers/page-pers2.jpg);
+}
+
+.berita_pers .box2 .card-content{
+	padding: 5px;
+	height: 20vh;
+}
+
+.berita_pers .box2 .head-text{
+	font-size: 12px;
+	padding-left: 5px !important;
+	margin-bottom: 10px;
+}
+
+.berita_pers .box2 .text-content{
+	font-size: 8px;
+	padding-left: 5px !important;
+	padding-right: 5px;
+	margin-bottom: 3vh;
+}
+
+.berita_pers .box2 a{
+	margin-top: 30px;
+}
+
+.berita_pers .box2 .text-link span{
+	font-size: 13px;
+	margin-left: 6vw;
 }
 /* end berita_pers */
 
