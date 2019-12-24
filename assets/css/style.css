@@ -1358,12 +1358,26 @@ li .textcheck p{
 }
 /* end berita_pers */
 
-/* produk andalan */
+
 .produk .head-text{
 	height: 8vh;
 }
 
-/* end produk andalan*/
+/* produk detail */
+.produk_detail{
+	padding: 0px !important
+	margin-left: 5vw;
+	height: 100vh !important;
+	width: 100vw !important;
+	display: inline-block;
+	background-image: url(../images/bg.png);
+	background-position: bottom;
+	background-size: auto 50%;
+	background-repeat: repeat-x;
+	overflow: hidden;
+
+}
+/* end produk detail */
 
 /* custom hoover background*/
 .push-right{
