@@ -1477,4 +1477,14 @@ li .textcheck p{
 	background-size: cover;
 	position: relative;
 }
+
+#karir .hov-bg{
+	background-image: url(../images/bg/karir.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
 /* end custom hoover background */
