@@ -1336,7 +1336,7 @@ li .textcheck p{
 }
 
 .berita_pers .box2 .head-text{
-	font-size: 12px;
+	font-size: 12px; 
 	padding-left: 5px !important;
 	margin-bottom: 10px;
 }
@@ -1399,6 +1399,77 @@ li .textcheck p{
 
 #pers .hov-bg{
 	background-image: url(../images/bg/pers.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#andalan .hov-bg{
+	background-image: url(../images/bg/andalan.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#visimisi .hov-bg{
+	background-image: url(../images/bg/visimisi.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#finansial .hov-bg{
+	background-image: url(../images/bg/finansial.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#sejarah .hov-bg{
+	background-image: url(../images/bg/sejarah.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#pemasaran .hov-bg{
+	background-image: url(../images/bg/pemasaran.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+
+#sertifikasi .hov-bg{
+	background-image: url(../images/bg/sertifikasi.jpg);
+	max-width: 70vw;
+	height: 100vh !important;
+	vertical-align: top;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+}
+
+#peduli .hov-bg{
+	background-image: url(../images/bg/peduli.jpg);
 	max-width: 70vw;
 	height: 100vh !important;
 	vertical-align: top;
