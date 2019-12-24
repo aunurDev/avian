@@ -789,7 +789,6 @@ a,a:hover{
 }
 
 .box2 p, .box2 h2{
-	/*padding-left: 40px;*/
 	padding-left: 2.5vw;
 }
 
@@ -1367,6 +1366,7 @@ li .textcheck p{
 .produk_detail{
 	padding: 0px !important
 	margin-left: 5vw;
+	padding: 5vh 5vw 5vh 12vw;
 	height: 100vh !important;
 	width: 100vw !important;
 	display: inline-block;
@@ -1375,7 +1375,66 @@ li .textcheck p{
 	background-size: auto 50%;
 	background-repeat: repeat-x;
 	overflow: hidden;
+}
 
+.produk_detail .box-header{
+	padding-top: 2vh;
+	height: 10vh;
+}
+
+.produk_detail .btn-outline-success{
+	margin-top: 8px;
+	margin-left: 60px;
+	border: 1.5px solid green;
+	background-color: #e7ece6;
+	border-radius: 20px;
+}
+
+.produk_detail .card{
+	background-color: white;
+	width: 26.5vw;
+	height: 23vh;
+	overflow: hidden;
+	border-radius: 5px;
+	margin-top: 4vh;
+	margin-left: 0 2vw 0 0;
+}
+
+.produk_detail .card .cat-img{
+	height: 20vh;
+}
+
+.card .head-card-content{
+	height: 5vh;
+	padding-left: 1vw;
+	padding-top: 0.5vh;
+	padding-right: 0.5vw;
+}
+
+
+.font-xs{
+	font-size: 10px;
+}
+.card .content-card-content{
+	padding-left: 1vw;
+	height: 11.5vh;
+	overflow: hidden;
+	margin-bottom: 0.5vh;
+}
+
+
+.produk_detail .card .btn-produk{
+	margin-left: 1vw;
+	border-radius: 25px;
+	padding: 3px 4vw;
+	background-color: #ffffff;
+	border: 1px solid #01532f; 
+}
+
+.produk_detail .card .btn-produk:hover{
+	transition: all 0.5s;
+	background-color: #01532f;
+	color: white;
 }
 /* end produk detail */
 
