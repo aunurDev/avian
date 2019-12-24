@@ -1358,6 +1358,12 @@ li .textcheck p{
 }
 /* end berita_pers */
 
+/* produk andalan */
+.produk .head-text{
+	height: 8vh;
+}
+
+/* end produk andalan*/
 
 /* custom hoover background*/
 .push-right{
