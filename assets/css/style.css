@@ -1237,7 +1237,6 @@ li .textcheck p{
 	background-color: #01532f;
 	color: white;
 }
-
 /* end_detail_warna */
 
 
@@ -1436,6 +1435,145 @@ li .textcheck p{
 	color: #ffffff;
 }
 /* end produk detail */
+
+
+/* produk detail produk*/ 
+.produk_detail_produk{
+	height: 100vh;
+	background-color: #e0e5df;
+	padding-top: 2.5vh;
+	padding-left: 1.5vw;
+}
+
+.produk_detail_produk .box0{
+	height: 89vh;
+	width: 85vw;
+	margin: 2.5vh 2.5vw;
+}
+
+.produk_detail_produk .card-detail{
+	height: 89vh;
+	background-color: #ffffff;
+	border-radius: 10px;
+	z-index: 4
+}
+
+.produk_detail_produk .desc{
+	height: 89vh;
+}
+
+.produk_detail_produk .title{
+	padding: 2vh 0;
+	height: 8vh;
+}
+
+.produk_detail_produk .detail-img{
+	position: relative;
+	height: 30vh;
+}
+
+.produk_detail_produk .detail-img img{
+	position: absolute;
+	left: 2vw;
+	height: 30vh
+}
+
+
+
+.produk_detail_produk .desc-card{
+	margin-left: 10px;
+	margin-top: 15px;
+}
+
+.produk_detail_produk .desc-card .row, .produk_detail_produk .desc-card p{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.produk_detail_produk .desc-card p{
+	font-size: 11px;
+}
+
+.produk_detail_produk .desc-card .calculator-box{
+	height: 15vh;
+	padding-top: 2vh;
+}
+
+#btn-calculator{
+	margin-top: 8px;
+	background-color: #ffffff;
+	border-radius: 30px;
+	border: 1px solid #01532f !important;
+}
+
+#btn-calculator:hover, .produk_detail_produk .other-button button:hover{
+	background-color: #01532f;
+	color: #ffffff;
+	transition: all 0.5s;
+}
+
+.produk_detail_produk .other-button{
+	height: 19vh;
+	margin-top: 2vh;
+}
+
+.produk_detail_produk .other-button button{
+	margin-top: 1vh;
+	background-color: #ffffff;
+	border-radius: 30px;
+	border: 1px solid #01532f !important;
+}
+
+.produk_detail_produk .desc .bg-header{
+	height: 25vh;
+	width: 65vw;
+	border-radius: 0 25px 25px 0;
+	margin-left: -10px;
+	margin-top: -4px;
+	background-image: url(../images/bg2.png);
+	background-size: 25%;
+	background-position: left;
+	background-repeat: repeat-x;
+	overflow: hidden; 
+}
+
+.produk_detail_produk .desc{
+	height: 89vh; 
+	padding: 0px;
+}
+
+.produk_detail_produk .desc p{
+	margin-left: 40px;
+	margin-top: 20px;
+}
+
+.produk_detail_produk .desc ul li{
+	margin-left: 20px;
+	list-style-image: url(../images/icon/list-icon.png);
+}
+/* end produk detail produk */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* custom hoover background*/
 .push-right{
