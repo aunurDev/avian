@@ -30,8 +30,6 @@
 }
 
 
-
-
 body, html{
 	margin: 0px;
 	padding: 0px;
@@ -290,9 +288,28 @@ a,a:hover{
 .mr{
 	margin-left: 100px;
 }
+
 .visimisi{
-	min-width: 140vw !important;
+	min-width: 88vw !important;
+	background-color: #E7ECE6;
+	height: 100vh;
+	background-image: url(../images/bg.png);
+	background-repeat: repeat-x;
+	background-position: bottom;
+	background-size: auto 50%;
+	padding: 3vh 4vw;
 }
+
+.visimisi .box0{
+	height: 89.5vh;
+	width: 85vw;
+	padding: 0 20px 0 30px;
+}
+
+.visimisi .icon-visimisi{
+	width: 60px;
+}
+
 .mr .fw{
 	margin-left: -4px
 }
@@ -1457,7 +1474,7 @@ li .textcheck p{
 	height: 89vh;
 	background-color: #ffffff;
 	border-radius: 10px;
-	z-index: 4
+	z-index: 1
 }
 
 .produk_detail_produk .desc{
@@ -1589,13 +1606,26 @@ li .textcheck p{
 }
 /* end berita artikel*/
 
+/* popup detail produk */
+/*.overlay{
+	top: 0px;
+	position: fixed;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0,0,0,0.7);
+	z-index: 3;
+}*/
 
+.overlay .moodal{
+	/*position: absolute;*/
+	background-color: #ffffff;
+	/*width: 500px;*/
+	/*left: 50%*/
+	/*margin-left: -250px;*/
+	/*z-index: 4; */
+}
 
-
-
-
-
-
+/**/
 
 
 
