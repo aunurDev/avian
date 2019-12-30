@@ -1615,15 +1615,15 @@ li .textcheck p{
 	background-color: rgba(0,0,0,0.7);
 	z-index: 3;
 }*/
-
+/*
 .overlay .moodal{
-	/*position: absolute;*/
+	position: absolute;
 	background-color: #ffffff;
-	/*width: 500px;*/
-	/*left: 50%*/
-	/*margin-left: -250px;*/
-	/*z-index: 4; */
-}
+	width: 500px;
+	left: 50%
+	margin-left: -250px;
+	z-index: 4; 
+}*/
 
 /**/
 
