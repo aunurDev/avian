@@ -1607,25 +1607,78 @@ li .textcheck p{
 /* end berita artikel*/
 
 /* popup detail produk */
-/*.overlay{
-	top: 0px;
-	position: fixed;
-	height: 100%;
-	width: 100%;
-	background-color: rgba(0,0,0,0.7);
-	z-index: 3;
-}*/
-/*
-.overlay .moodal{
-	position: absolute;
-	background-color: #ffffff;
-	width: 500px;
-	left: 50%
-	margin-left: -250px;
-	z-index: 4; 
+.modal .modal-dialog{
+	margin-top: 25vh;
+}
+
+.modal .box-modal{
+	height: 45vh;
+}
+
+.modal .modal-ln1{
+	padding: 10px 10px 0;
+	font-size: 11px;
+}
+
+.modal .modal-ln1 .text-ln1{
+	width: 30vw;
+	margin-left: 13vh;
+}
+
+.modal-ln2, .modal-ln2 .col-md-6{
+	padding: 0px;
+	margin: 0px !important;
+	box-shadow: 0px 10px 25px -16px;
+}
+
+.modal-ln2 button{
+	background-color: #ffffff;	
+	border-radius:0px 0px;
+}
+
+.modal-ln2 button.active{
+	color: green;
+	font-weight: 900;
+	border-bottom: 3px solid #0D5A38;
+	transition: all 0.3s;
+	box-shadow: none;
+}
+
+.modal .modal-body p{
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+.modal .modal-body form{
+	width: 20vw;
+	margin-left: 10vw;
+	padding-top: 10px;
+}
+
+/*.modal .modal-body{
+	display: none;
+}
+*/
+/*.modal .modal-body .active-content{
+	display: inline-block;
 }*/
 
-/**/
+.modal input[type=text], .modal input[type=submit]{
+	padding: 5px 45px;
+	border-radius: 20px;
+	border: 1px solid #0D5A38;
+	background-color: #ffffff;
+	margin-bottom: 8px;
+	/*margin-top: 10px;*/
+}
+
+.modal input[type=submit]{
+	color: #0D5A38;
+	font-weight: 800;
+}
+
+
+/* /end popup detail produk*/
 
 
 

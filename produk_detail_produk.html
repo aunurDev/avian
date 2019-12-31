@@ -207,12 +207,12 @@
               </dir>
               <div class="calculator-box">
                 <p class="font-sofia-light text-center">Berapa banyak chat yang anda butuhkan?<br>Hitung Dengan Kalkulator</p>
-                <button id="btn-calculator" class="btn btn-block font-sofia-bold font-sm font-green">Lihat Produk</button>
+                <button id="btn-calculator" class="btn btn-block font-sofia-bold font-sm font-green" data-toggle="modal" data-target="#area-iya">Kalkulator</button>
               </div>
               <div class="other-button">
-                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Lihat Produk</button></a>
-                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Lihat Produk</button></a>
-                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Lihat Produk</button></a>
+                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Cari Toko Terdekat</button></a>
+                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Unduh Informasi Keselamatan</button></a>
+                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Unduh Informasi Keselamatan</button></a>
               </div>
             </div>
           </div>
@@ -241,11 +241,62 @@
     </div>
     <!-- /MAIN CONTENT -->
 
-    <div class="overlay">
-        <div class="modal">
-          <h1>Artikel</h1>
-        </div>
-      </div>
+    <!-- MODAL KALKULATOR YA-->
+    <div class="modal fade" id="area-iya" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="box-modal">
+            <div class="row modal-ln1">
+              <div class="col-md-10">
+                <p class="font-sofia-light font-black text-center text-ln1">Berapa banyak cat yang saya butuhkan?</p></div>
+              <div class="col-md-2">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button></div>
+            </div>
+            <p class="font-sofia-bold font-sm font-black text-center">Anda tahu areanya?</p>
+            <div class="row modal-ln2">
+              <div class="col-md-6"><button class="btn btn-block font-sofia-light font-black active" data-toggle="modal" data-target="#area-iya">Ya</button></div>
+              <div class="col-md-6"><button class="btn btn-block font-sofia-light font-black" data-toggle="modal" data-target="#area-tidak">Tidak</button></div>
+            </div>
+            <div class="modal-body">
+              <p class="font-sofia-light font-black text-center">Masukkan ke kolom dibawah dan lihat berapa banyak yang anda butuhkan.</p>
+              <form action="">
+                <input class="form-control" type="text" name="meter" placeholder="Masukkan metter">
+                <input class="form-control" type="submit" name="hitung" value="Hitung">
+              </form>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+    <!-- /MODAL -->
+
+    <div class="modal fade" id="are-tidak" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="box-modal">
+            <div class="row modal-ln1">
+              <div class="col-md-10">
+                <p class="font-sofia-light font-black text-center text-ln1">Berapa banyak cat yang saya butuhkan?</p></div>
+              <div class="col-md-2">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button></div>
+            </div>
+            <p class="font-sofia-bold font-sm font-black text-center">Anda tahu areanya?</p>
+            <div class="row modal-ln2">
+              <div class="col-md-6"><button id="btn-iya" class="btn btn-block font-sofia-light font-black">Ya</button></div>
+              <div class="col-md-6"><button id="btn-tidak" class="btn btn-block font-sofia-light font-black active">Tidak</button></div>
+            </div>
+            <!-- ya -->
+            <div class="modal-body active-content" id="modal-ya">
+              <p class="font-sofia-light font-black text-center">Masukkan ke kolom dibawah dan lihat berapa banyak yang anda butuhkan.</p>
+              <form action="">
+                <input class="form-control" type="text" name="meter" placeholder="Masukkan metter">
+                <input class="form-control" type="submit" name="hitung" value="Hitung">
+              </form>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
 
 
   

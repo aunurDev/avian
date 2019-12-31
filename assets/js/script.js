@@ -1,25 +1,10 @@
 // hover background
 $(document).ready(function(){
-	// option1
-	// if ($("#link-gedung").mouseenter()) {
-	// 	$(".push-right").css("display", "block");
-	// 	$("#content").css("display", "none");
-	// }else{
-	// 	$(".push-right").css("display", "none");
-	// 	$("#content").css("display", "block");
-	// }
+	
+	//  kalkulator modal
+	$('#kalkulatorModal').modal('show')
 
-	// option2
-	// $('#link-gedung').mouseenter(function(){
-	// 	$(".push-right").css("display", "block");
-	// 	$("#content").css("display", "none");
-	// 	$(this).mouseleave(function(){
-	// 		$(".push-right").css("display", "none");
-	// 		$("#content").css("display", "block");
-	// 	});
-	// });
-
-	// option3
+	// hover bg
 	$('#link-gedung').mouseenter(function(){
 		if ($("#gedung.push-right").css("display", "block")) {
 			$("#content").css("display", "none");	
