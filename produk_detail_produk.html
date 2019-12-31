@@ -176,46 +176,50 @@
     <div id="content" class="mr produk_detail_produk">
       <div class="row box0">
         <div class="row">
-          <div class="col-md-3 card-detail">
-            <div class="row title">
-              <div class="col-md-10">
-                <p class="font-sofia-bold font-sm font-green">Sunguard</p>
+          <!-- card detail -->
+          <div class="box-shadow">
+            <div class="col-md-3 card-detail">
+              <div class="row title">
+                <div class="col-md-10">
+                  <p class="font-sofia-bold font-sm font-green">Sunguard</p>
+                </div>
+                <div class="col-md-2">
+                  <3
+                </div>
               </div>
-              <div class="col-md-2">
-                <3
+              <div class="detail-img">
+                <img src="assets/images/warna/Result_Produk.jpg">
               </div>
-            </div>
-            <div class="detail-img">
-              <img src="assets/images/warna/Result_Produk.jpg">
-            </div>
-            <div class="desc-card">
-              <dir class="row desc-produk">
-                <div class="col-md-7"><p class="font-sofia-bold">Hasil Akhir</p></div>
-                <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">Semi Gloss</p></div><br>
-              </dir>
-              <dir class="row desc-produk">
-                <div class="col-md-7 font-sofia-bold"><p class="font-sofia-bold">Daya sebar</p></div>
-                <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">12 - 14 M<sup>2</sup>/L</p></div><br>
-              </dir>
-              <dir class="row desc-produk">
-                <div class="col-md-7 font-sofia-bold"><p class="font-sofia-bold">Waktu pengeringan</p></div>
-                <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">2-4 jam</p></div><br>
-              </dir>
-              <dir class="row desc-produk">
-                <div class="col-md-7 font-sofia-bold"><p class="font-sofia-bold">Jumlah lapisan cat</p></div>
-                <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">2 lapis</p></div><br>
-              </dir>
-              <div class="calculator-box">
-                <p class="font-sofia-light text-center">Berapa banyak chat yang anda butuhkan?<br>Hitung Dengan Kalkulator</p>
-                <button id="btn-calculator" class="btn btn-block font-sofia-bold font-sm font-green" data-toggle="modal" data-target="#area-iya">Kalkulator</button>
-              </div>
-              <div class="other-button">
-                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Cari Toko Terdekat</button></a>
-                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Unduh Informasi Keselamatan</button></a>
-                <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Unduh Informasi Keselamatan</button></a>
+              <div class="desc-card">
+                <dir class="row desc-produk">
+                  <div class="col-md-7"><p class="font-sofia-bold"><i class="fa fa-star"></i> Hasil Akhir</p></div>
+                  <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">Semi Gloss</p></div><br>
+                </dir>
+                <dir class="row desc-produk">
+                  <div class="col-md-7 font-sofia-bold"><p class="font-sofia-bold">Daya sebar</p></div>
+                  <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">12 - 14 M<sup>2</sup>/L</p></div><br>
+                </dir>
+                <dir class="row desc-produk">
+                  <div class="col-md-7 font-sofia-bold"><p class="font-sofia-bold">Waktu pengeringan</p></div>
+                  <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">2-4 jam</p></div><br>
+                </dir>
+                <dir class="row desc-produk">
+                  <div class="col-md-7 font-sofia-bold"><p class="font-sofia-bold">Jumlah lapisan cat</p></div>
+                  <div class="col-md-5 font-sofia-light"><p class="font-sofia-light">2 lapis</p></div><br>
+                </dir>
+                <div class="calculator-box">
+                  <p class="font-sofia-light text-center">Berapa banyak chat yang anda butuhkan?<br>Hitung Dengan Kalkulator</p>
+                  <button id="btn-calculator" class="btn btn-block font-sofia-bold font-sm font-green" data-toggle="modal" data-target="#area-iya"><i class="fa fa-calculator"></i> Kalkulator</button>
+                </div>
+                <div class="other-button">
+                  <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Cari Toko Terdekat</button></a>
+                  <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Unduh Informasi Keselamatan</button></a>
+                  <a href="#"><button class="btn btn-block font-sofia-bold font-sm font-green">Unduh Informasi Keselamatan</button></a>
+                </div>
               </div>
             </div>
           </div>
+          
           <div class="col-md-9 desc">
             <div class="bg-header"></div>
             <div class="box-desc">
@@ -254,15 +258,17 @@
             </div>
             <p class="font-sofia-bold font-sm font-black text-center">Anda tahu areanya?</p>
             <div class="row modal-ln2">
-              <div class="col-md-6"><button class="btn btn-block font-sofia-light font-black active" data-toggle="modal" data-target="#area-iya">Ya</button></div>
-              <div class="col-md-6"><button class="btn btn-block font-sofia-light font-black" data-toggle="modal" data-target="#area-tidak">Tidak</button></div>
+              <div class="col-md-6"><button class="btn btn-block font-sofia-light font-black active" id="btn-iya">Ya</button></div>
+              <div class="col-md-6"><button class="btn btn-block font-sofia-light font-black" id="btn-tidak">Tidak</button></div>
             </div>
             <div class="modal-body">
               <p class="font-sofia-light font-black text-center">Masukkan ke kolom dibawah dan lihat berapa banyak yang anda butuhkan.</p>
-              <form action="">
-                <input class="form-control" type="text" name="meter" placeholder="Masukkan metter">
-                <input class="form-control" type="submit" name="hitung" value="Hitung">
-              </form>
+              <div class="pad-form">
+                <form action="">
+                  <input class="form-control" type="text" name="meter" placeholder="Masukkan metter">
+                </form>
+                <button id="btn-hitung1" class="btn-form btn-block font-sofia-light font-green font-sm">Hitung</button>
+              </div>
             </div>
           </div>
         </div><!-- /.modal-content -->
@@ -270,7 +276,7 @@
     </div>
     <!-- /MODAL -->
 
-    <div class="modal fade" id="are-tidak" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal fade" id="area-tidak" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
           <div class="box-modal">
@@ -282,16 +288,66 @@
             </div>
             <p class="font-sofia-bold font-sm font-black text-center">Anda tahu areanya?</p>
             <div class="row modal-ln2">
-              <div class="col-md-6"><button id="btn-iya" class="btn btn-block font-sofia-light font-black">Ya</button></div>
-              <div class="col-md-6"><button id="btn-tidak" class="btn btn-block font-sofia-light font-black active">Tidak</button></div>
+              <div class="col-md-6"><button id="btn-iya2" class="btn btn-block font-sofia-light font-black">Ya</button></div>
+              <div class="col-md-6"><button id="btn-tidak2" class="btn btn-block font-sofia-light font-black active">Tidak</button></div>
             </div>
             <!-- ya -->
-            <div class="modal-body active-content" id="modal-ya">
+            <div class="modal-body" id="modal-ya">
               <p class="font-sofia-light font-black text-center">Masukkan ke kolom dibawah dan lihat berapa banyak yang anda butuhkan.</p>
               <form action="">
-                <input class="form-control" type="text" name="meter" placeholder="Masukkan metter">
-                <input class="form-control" type="submit" name="hitung" value="Hitung">
+                <div class="row nol-padmarg marg-lef">
+                  <div class="col-md-5 nol-padmarg">
+                    <input class="form-control" type="text" name="meter" placeholder="Masukkan tinggi">
+                  </div>
+                  <div class="col-md-1 nol-padmarg">
+                    <p class="font-sofia-light font-sm text-center font-x">x</p>
+                  </div>
+                  <div class="col-md-5 nol-padmarg">
+                    <input class="form-control" type="text" name="meter" placeholder="Masukkan panjang">
+                  </div>
+                </div>
               </form>
+              <div class="pad-form">
+                <button id="btn-hitung2" class="btn-form btn-block font-sofia-light font-green font-sm">Hitung</button>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div><!-- /.modal-content -->
+      </div><!-- /.modal-dialog -->
+    </div>
+    
+    <div class="modal fade" id="area-output" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="box-modal">
+            <div class="row modal-ln1">
+              <div class="col-md-10">
+                <p class="font-sofia-light font-black text-center text-ln1">Berapa banyak cat yang saya butuhkan?</p></div>
+              <div class="col-md-2">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">X</button></div>
+            </div>
+           
+            <!-- ya -->
+            <div class="modal-body" id="modal-ya">
+              <p class="font-sofia-bold font-md font-green text-center text-output-modal">Lenkote Sunguard Acrylic Emulsion</p>
+              <div class="row desc-output">
+                <div class="col-md-6 ">
+                  <p class="font-sofia-bold font-black text-center nol-padmarg">Luas area <span class="font-sofia-light left-5px"> 14 m<sup>2</sup></span></p>
+                  <p class="font-sofia-light font-black text-center nol-padmarg">2 m x 7 m (panjang x tinggi)</p>
+                </div>
+                <div class="col-md-6">
+                  <p class="font-sofia-bold font-black text-center nol-padmarg">Jumlah yang dibutuhkan <span class="font-sofia-light left-5px"> 2.33 L</span></p>
+                  <p class="font-sofia-light font-black text-center nol-padmarg">2 m x 7 m (panjang x tinggi)</p>
+                </div>
+                <br><br><br>
+                <p class="text-center font-sofia-light font-black">
+                  perkiraan ini berdasarkan 2 cat. Derajat penutupan sebenarnya akan tergantung pada kondisi permukaan. Jika perubahan warnanya kontras, mungkin akan diperlukan lapisan tambahan.
+                </p><br>
+                <div class="boxbutton">
+                  <button id="btn-hitung2" class="btn-form btn-block font-sofia-light font-green font-sm"><i class="fa fa-refresh"></i> Hitung ulang</button>
+                </div>
+              </div>
             </div>
           </div>
         </div><!-- /.modal-content -->

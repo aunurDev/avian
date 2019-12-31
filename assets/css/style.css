@@ -1637,7 +1637,7 @@ li .textcheck p{
 }
 
 .modal-ln2 button.active{
-	color: green;
+	color: #0D5A38;
 	font-weight: 900;
 	border-bottom: 3px solid #0D5A38;
 	transition: all 0.3s;
@@ -1649,10 +1649,10 @@ li .textcheck p{
 	margin-bottom: 10px;
 }
 
-.modal .modal-body form{
+.modal .modal-body .pad-form{
 	width: 20vw;
 	margin-left: 10vw;
-	padding-top: 10px;
+	padding-top: 7px;
 }
 
 /*.modal .modal-body{
@@ -1663,7 +1663,7 @@ li .textcheck p{
 	display: inline-block;
 }*/
 
-.modal input[type=text], .modal input[type=submit]{
+.modal input[type=text], .modal .btn-form{
 	padding: 5px 45px;
 	border-radius: 20px;
 	border: 1px solid #0D5A38;
@@ -1672,14 +1672,44 @@ li .textcheck p{
 	/*margin-top: 10px;*/
 }
 
-.modal input[type=submit]{
+.modal .btn-form{
 	color: #0D5A38;
 	font-weight: 800;
 }
 
+.modal .font-x{
+	margin-top: 0px !important;
+}
 
+.nol-padmarg{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+
+.modal .marg-lef{
+	margin-left: 30px !important;
+}
+
+.modal .text-output-modal{
+	margin-top: 0px !important;
+	padding-top: 0px !important;
+}
+
+.modal .desc-output{
+	font-size: 11px;
+}
+
+.left-5px{
+	margin-left: 5px;
+}
+
+.modal .boxbutton{
+	margin-left: 8vw;
+	width: 30vw;
+}
 /* /end popup detail produk*/
 
+/*shadow*/
 
 
 

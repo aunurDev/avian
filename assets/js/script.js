@@ -1,8 +1,26 @@
-// hover background
+// kalkulator modal
 $(document).ready(function(){
-	
-	//  kalkulator modal
-	$('#kalkulatorModal').modal('show')
+
+	$('#btn-tidak').click(function(){
+		$('#area-iya').modal('hide');
+		$('#area-tidak').modal('show');
+		$('#navbar').css("display","block");
+	});
+
+	$('#btn-iya2').click(function(){
+		$('#area-tidak').modal('hide');
+		$('#area-iya').modal('show');
+	});
+
+	$('#btn-hitung1').click(function(){
+		$('#area-iya').modal('hide');
+		$('#area-output').modal('show');
+	});
+
+	$('#btn-hitung2').click(function(){
+		$('#area-tidak').modal('hide');
+		$('#area-output').modal('show');
+	});
 
 	// hover bg
 	$('#link-gedung').mouseenter(function(){
