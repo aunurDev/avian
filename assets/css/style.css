@@ -1214,7 +1214,8 @@ li .textcheck p{
 	border-radius: 5px;
 	height: 22vh;
 	width: 33vw;
-	margin: 0 30px 25px 40px ;
+	margin: 0 30px 25px 40px;
+	position: relative;
 }
 
 .detail_warna .card2{
@@ -1300,7 +1301,20 @@ li .textcheck p{
 	background-color: white;
 	padding: 0px !important;
 	border-radius: 8px;
-	overflow: hidden;
+	position: relative;
+}
+
+.berita_pers .card .shadow-img{
+	bottom: -14px;
+}
+
+.berita_pers .box1 .card{
+	position: relative;
+}
+
+.berita_pers .box1 .card .shadow-img{
+	bottom: -16px;
+	height: 15px;
 }
 
 .berita_pers .box1 .card .banner{
@@ -1409,13 +1423,47 @@ li .textcheck p{
 }
 
 .produk_detail .card{
-	background-color: white;
+	background-color: #ffffff;
 	width: 27vw;
 	height: 24vh;
-	overflow: hidden;
 	border-radius: 5px;
 	margin-top: 2.5vh;
+	position: relative;
 }
+
+.shadow-img{
+	height: 10%;
+	position: absolute;
+	width: 70%;
+	left: 15%;
+	right: 15%;
+	bottom: -15.5px;
+	opacity: 0.3;
+}
+/*
+.produk_detail .card::after{
+	position: absolute;
+	height: 24vh;
+	width: 27vw;
+	background-color: #ffffff;
+}*/
+/*
+.box-shadow{
+	width: 27vw;
+	height: 24vh;
+	position: relative;
+}
+
+.box-shadow::before{
+	content: "";
+	position: absolute;
+	box-shadow:0 0 50px rgba(0,0,0,0.8);
+	height: 50%;
+	width: 70%;
+	left: 15%;
+	bottom: 0px;
+	border-radius: 100%;
+}*/
 
 .produk_detail .card .cat-img{
 	height: 20vh;
@@ -1696,7 +1744,7 @@ li .textcheck p{
 }
 
 .modal .desc-output{
-	font-size: 11px;
+	font-size: 11px; 
 }
 
 .left-5px{
@@ -1709,9 +1757,10 @@ li .textcheck p{
 }
 /* /end popup detail produk*/
 
-/*shadow*/
-
-
+.img-icon{
+	width: 15px;
+	margin-right: 5px;
+}
 
 
 
