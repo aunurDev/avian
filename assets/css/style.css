@@ -98,7 +98,7 @@ a,a:hover{
 
 .button{
 	border-radius: 5px;
-	box-shadow: 1px 1px 3px #00000077;
+	/*box-shadow: 1px 1px 3px #00000077;*/
 	padding: 5px 10px;
 	border: none;
 
@@ -522,16 +522,21 @@ a,a:hover{
 	text-decoration: underline !important;
 }
 
-.karir-col{
+.karir-col, .lamaran{
 	margin-top: 25px;
 	width: 300px;
-	border-right: 1px solid #a1a1a1;
 	border-left: 1px solid #a1a1a1;
+	border-right: 1px solid #a1a1a1;
 	padding: 20px;
 	display: inline-block;
 	margin-left: -5px;
 	vertical-align: top;
 }
+
+.lamaran{
+	border: none;
+}
+
 .karir-col h3{
 	margin-top: 0px;
 }
@@ -1762,12 +1767,107 @@ li .textcheck p{
 	margin-right: 5px;
 }
 
+.bg-batik{
+	background-color: #E7ECE6;
+	background-image: url(../images/bg.png);
+	background-size: auto 50%;
+	background-position: bottom;
+	background-repeat: repeat-x;
+	height: 100vh;
+}
+
+
+/* avian peduli */
+.peduli{
+	width: 92vw;
+	height: 100vh;
+}
+/* /end avian peduli */
+
+
+/* detail karir*/
+.detail_karir{
+	position: relative;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.detail_karir .box-lamaran-btn, .detail_karir .box-lamaran{
+	position: absolute;
+	width: 100%;
+	background-color: #E7ECE6;
+	padding: 30px 20px 0;
+	-webkit-box-shadow: 0px -2px 48px -19px rgba(0,0,0,0.6);
+	-moz-box-shadow: 0px -2px 48px -19px rgba(0,0,0,0.6);
+	box-shadow: 0px -2px 48px -19px rgba(0,0,0,0.6);
+}
+
+.detail_karir .box-lamaran-btn{
+	top: 85vh;
+	height: 15vh;
+}
+
+.pad-link{
+	padding: 0 4px;
+}
+
+.detail_karir .btn-outline-rounded{
+	background-color:  #E7ECE6;
+	border-radius: 100px;
+	border: 1px solid #0D5A38;
+	color: #0D5A38;
+	padding: 4px 80px;
+}
+
+.detail_karir .btn-outline-rounded:hover{
+	background-color: #0D5A38;
+	color: #ffffff;
+	transition: all 0.3s; 
+}
+
+.detail_karir .box-lamaran{
+	top: 25.5vh;
+	height: 74.5vh; 
+}
+
+.pad-lamaran{
+	position: relative;
+}
+
+.pad-lamaran .mid{
+	position: absolute;
+	widows: 45%;
+	left: 27.5%;
+	right: 27.5%;
+	top: 5%;
+}
+
+.detail_karir .box-containt{
+	margin: 0 40px;
+	padding-top: 40px;
+}
+
+.
+/* end detail kerir */
 
 
 
+.peduli .berita-panel{
+	position: relative;
+	overflow: visible;
+}
+.peduli .berita-panel img:nth-child(1){
+	border-radius: 10px 0 0 10px;
+}
 
-
-
+.peduli .berita-panel .shadow-img{
+	left: 10%;
+	right: 10%;
+	width: 80%;
+	height: 25px;
+	position: absolute;
+	bottom: -25px;
+}
 
 
 /* custom hoover background*/

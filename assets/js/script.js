@@ -1,6 +1,16 @@
 // kalkulator modal
 $(document).ready(function(){
+	// karir
+	$(".box-lamaran").hide();
+	$("#kirim-lamaran").click(function(){
+		$(".box-lamaran").fadeIn(300);
+	});
+	$("#close-lamaran").click(function(){
+		$(".box-lamaran").fadeOut(300);
+	});
 
+
+	// kalkulator
 	$('#btn-tidak').click(function(){
 		$('#area-iya').modal('hide');
 		$('#area-tidak').modal('show');
