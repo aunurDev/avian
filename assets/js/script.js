@@ -6,7 +6,7 @@ $(document).ready(function(){
 		$(".box-lamaran").fadeIn(300);
 	});
 	$("#close-lamaran").click(function(){
-		$(".box-lamaran").fadeOut(300);
+		$(".box-lamaran").fadeOut(400);
 	});
 
 

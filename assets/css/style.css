@@ -177,6 +177,22 @@ a,a:hover{
 	background-size: auto 50%;
 	background-repeat: repeat-x;
 }
+
+#navbar .input-search{
+	position: relative;
+}
+
+#navbar .input-search input[type=text]{
+	padding-left: 40px;
+}
+
+#navbar .input-search i{
+	position: absolute;
+	left: 14px;
+	top: 8px;
+	opacity: 0.7
+}
+
 #logo{
 	width: 50px;
 	margin-top: 40vh;
@@ -307,7 +323,7 @@ a,a:hover{
 }
 
 .visimisi .icon-visimisi{
-	width: 60px;
+	width: 48px;
 }
 
 .mr .fw{
@@ -1445,30 +1461,6 @@ li .textcheck p{
 	bottom: -15.5px;
 	opacity: 0.3;
 }
-/*
-.produk_detail .card::after{
-	position: absolute;
-	height: 24vh;
-	width: 27vw;
-	background-color: #ffffff;
-}*/
-/*
-.box-shadow{
-	width: 27vw;
-	height: 24vh;
-	position: relative;
-}
-
-.box-shadow::before{
-	content: "";
-	position: absolute;
-	box-shadow:0 0 50px rgba(0,0,0,0.8);
-	height: 50%;
-	width: 70%;
-	left: 15%;
-	bottom: 0px;
-	border-radius: 100%;
-}*/
 
 .produk_detail .card .cat-img{
 	height: 20vh;
@@ -1708,14 +1700,6 @@ li .textcheck p{
 	padding-top: 7px;
 }
 
-/*.modal .modal-body{
-	display: none;
-}
-*/
-/*.modal .modal-body .active-content{
-	display: inline-block;
-}*/
-
 .modal input[type=text], .modal .btn-form{
 	padding: 5px 45px;
 	border-radius: 20px;
@@ -1846,8 +1830,6 @@ li .textcheck p{
 	margin: 0 40px;
 	padding-top: 40px;
 }
-
-.
 /* end detail kerir */
 
 

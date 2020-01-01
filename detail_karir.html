@@ -115,14 +115,17 @@
       
       <!-- social icon -->
       <div class="nav-bottom font-sm text-center">
-        <input type="text" placeholder="Search" class="form-control input-sm" name="">
+        <div class="input-search">
+          <input type="text" placeholder="Search" class="input-form" name="">
+          <i class="fa fa-search" aria-hidden="true"></i>
+        </div>
         <a href="#" class="fa fa-linkedin"></a>
         <a href="#" class="fa fa-youtube"></a>
         <a href="#" class="fa fa-facebook-square"></a>
         <a href="#" class="fa fa-instagram"></a>
       </div>
     </div> <!-- end navbar -->
-
+ 
     <!-- HOVER -->
     <div>
       <div id="gedung" class="push-right">
@@ -227,7 +230,7 @@
         <div class="row">
           <div class="col-md-4"></div>
           <div class="col-md-3">
-            <button id="kirim-lamaran" class="btn btn-outline-rounded">Kirim Lamaran</button>
+            <button id="kirim-lamaran" class="btn btn-outline-rounded font-sofia-bold font-sm font-green">Kirim Lamaran</button>
           </div>
           <div class="col-md-2">
             <p class="font-sofia-bold font-sm font-green">Share: 
@@ -258,12 +261,26 @@
                 Daftarkan Diri Anda Sekarang!
               </p>
               <p class="font-sofia-light font-xs font-black">
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Informasi Anda akan tetap dalam database kami untuk sampai dengan 12 bulan sejak Anda memasukkan data. Setiap kali lowongan pekerjaan baru tersedia, tim kami akan mencari informasi di dalam database tersebut untuk diproses lebih lanjut. Semua informasi yang Anda berikan dijaga kerahasiaannya.
+              </p><br>
+              <input type="text" class="input-form" placeholder="Nama Lengkap"><br>
+              <input type="text" class="input-form" placeholder="Tanggal Lahir" onclick="this.type='date'"><br>
+              <input type="email" class="input-form" placeholder="Email"><br>
+              <textarea style="height: 33px;" class="input-form" placeholder="alamat"></textarea><br>
+              <input type="file" name="" style="display: none;" id="cv">
+              <button class="font-sofia-bold btn btn-outline-rounded btn-block btn-inline-green font-green" onclick="$('#cv').click()">Unggah File <span class="font-sofia-light">(.PDF size max 4 MB)</span></button>
+              <button class="font-sofia-bold btn btn-outline-rounded btn-block btn-inline-green font-green" type="submit">Kirim</button> 
+              <br><br>
+              <p class="text-center font-sofia-bold font-sm font-green">Share: 
+                <span class="pad-link">
+                  <a href="#" class="fa fa-linkedin"></a>
+                </span>  
+                <span class="pad-link">
+                  <a href="#" class="fa fa-facebook-square"></a>
+                </span>
+                <span class="pad-link">
+                  <a href="#" class="fa fa-whatsapp"></a>
+                </span>
               </p>
             </div>
           </div>
