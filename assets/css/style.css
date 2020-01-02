@@ -716,6 +716,7 @@ a,a:hover{
 	margin-left: 15px;
 }
 
+
 /*
 #peduliFilter .select-box .option label{
 	margin-left: 20px;
@@ -1850,6 +1851,11 @@ li .textcheck p{
 	margin: 0 40px;
 	padding-top: 40px;
 }
+
+.label-fileup input[type=file]{
+	display: none;
+}
+
 /* end detail kerir */
 
 
