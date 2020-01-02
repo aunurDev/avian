@@ -130,7 +130,7 @@ a,a:hover{
 }
 
 .button.btn-inline-green{
-	border: 2px solid #0d5a38;
+	border: 1px solid #0d5a38;
 	background-color: transparent;
 }
 .button.btn-inline-green:hover{
@@ -701,7 +701,27 @@ a,a:hover{
 	bottom: 250px !important;
 	left: 25px !important;
 	z-index: 2 !important;
+	background-color: blue;
 }
+
+#peduliFilter .select-box .option{
+	height: 15px;
+	background-color: red;
+}
+
+#peduliFilter .select-box .option input[type=radio] #semua{
+}
+
+#peduliFilter .select-box .option label{
+	margin-left: 15px;
+}
+
+/*
+#peduliFilter .select-box .option label{
+	margin-left: 20px;
+	margin-top: -10px !important;
+}
+*/
 #peduliFilter .button{
 	background-color: #fff
 }
