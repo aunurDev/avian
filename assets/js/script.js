@@ -1,5 +1,15 @@
 // kalkulator modal
 $(document).ready(function(){
+	// peduli
+	const selected = $('.selected');
+	const optionContainer = $('.option-container');
+	const optionList = $('.option');
+
+	selected.click(function(){
+		optionContainer.classList.toggle('active');
+	});
+
+	
 	// karir
 	$(".box-lamaran").hide();
 	$("#kirim-lamaran").click(function(){
