@@ -167,31 +167,6 @@ a,a:hover{
 .h-col.fw{
 	width: 100vw;
 }
-
-.h1{
-	font-size: 48px;
-	font-weight: 500;
-	line-height: 1.13;
-}
-
-.h2{
-	font-size: 24px;
-	line-height: 1.42;
-	letter-spacing: 0.5px;
-}
-
-.p1{
-	font-size: 16px;
-	font-weight: 500;
-	line-height: 1.56;
-}
-
-.p2{
-	font-size: 12px;
-	font-weight: 500px;
-	line-height: 1.5;
-}
-
 /*COMPONENTS*/
 
 #navbar{
@@ -547,8 +522,8 @@ a,a:hover{
 }
 
 .berita-col{
-	width: 550px;
-	padding-right: 10px;
+	width: 450px;
+	padding-right: 20px
 }
 .berita-col, .berita-featured{
 	display: inline-block;
@@ -563,7 +538,6 @@ a,a:hover{
 	overflow: hidden;
 	height: 170px;
 	padding: 0px;
-	position: relative;
 }
 .berita .berita-panel img, .berita .berita-panel .berita-panel-text{
 	display: inline-block;
@@ -589,12 +563,6 @@ a,a:hover{
 	bottom: -10px;
 	right: 5px;
 }
-.berita .link-selanjutnya{
-	position: absolute;
-	bottom: 5px;
-	right: 40px;
-}
-
 .berita-panel a:hover{
 	text-decoration: underline !important;
 }
@@ -667,20 +635,21 @@ a,a:hover{
 	bottom: 40px;
 }
 
-/*#kantorMap{
-	position: fixed;
+#kantorMap{
+	/*position: fixed;*/
 	width: 92.7vw;
 	overflow: hidden;
 	height: 100vh;
-}*/
-
-
-#kantorMap{
-	height: 450px !important;
-	width: 900px !important;
 }
 
-
+.map-filter{
+	position: fixed;
+	top: 0px;
+	padding: 15px;
+	left: 15px;
+	box-shadow: 1px 1px 1px #e1e1e1;
+	border-bottom-right-radius: 10px;
+}
 #kantorFilter{
 	width: 500px;
 }
@@ -694,7 +663,7 @@ a,a:hover{
 	padding: 5px;
 }
 .map-info{
-	width: 40px;
+	width: 400px;
 	padding: 20px;
 	position: fixed;
 	bottom: 60px;
@@ -744,7 +713,7 @@ a,a:hover{
 }
 
 .berita-featured.peduli-text{
-	padding-right: 70px;
+	padding-right: 30px;
 }
 
 .peduli #kantorMap{
@@ -755,15 +724,34 @@ a,a:hover{
 	left: 0px !important;
 	z-index: 1 !important;
 }
-
 #peduliFilter{
-	position: absolute !important;
+	position: fixed !important;
 	width: 300px;
-	top: 250px !important;
+	bottom: 250px !important;
 	left: 25px !important;
 	z-index: 2 !important;
+	background-color: blue;
 }
 
+#peduliFilter .select-box .option{
+	height: 15px;
+	background-color: red;
+}
+
+#peduliFilter .select-box .option input[type=radio] #semua{
+}
+
+#peduliFilter .select-box .option label{
+	margin-left: 15px;
+}
+
+
+/*
+#peduliFilter .select-box .option label{
+	margin-left: 20px;
+	margin-top: -10px !important;
+}
+*/
 #peduliFilter .button{
 	background-color: #fff
 }
@@ -2050,89 +2038,3 @@ li .textcheck p{
 	position: relative;
 }
 /* end custom hoover background */
-
-/* filter */
-.select-box {
-  display: flex;
-  width: 400px;
-  flex-direction: column;
-}
-.select-box .option-container{
-	background-color: #ffffff;
-	color: #b2b3b7;
-	max-height: 0;
-	width: 100%;
-	opacity: 0;
-	transition: all 0.4s;
-	border-radius: 10px;
-	overflow: hidden;
-
-	order: 1;
-}
-
-.selected {
-  background: #ffffff;
-  border-radius: 25px;
-  margin-bottom: 8px;
-  color: #b2b3b7;
-  position: relative;
-  /*padding: 5px 15px;*/
-
-  order: 0;
-}
-
-.selected::after {
-  content: "";
-  background: url("..images/icon/arrow-down.svg");
-  background-size: contain;
-  background-repeat: no-repeat;
-
-  position: absolute;
-  height: 100%;
-  width: 32px;
-  right: 10px;
-  top: 5px;
-
-  transition: all 0.4s;
-}
-
-.select-box .option-container.active{
-	max-height: 240px;
-	opacity: 1;
-	overflow-y: scroll;
-}
-
-.select-box .option-container.active + .selected::after{
-	transform: rotateX(180deg);
-	top: -6px;
-} 
-
-.select-box .option-container::-webkit-scrollbar {
-	width: 8px;
-	background-color: #ececec;
-	border-radius: 25px;
-}
-
-.select-box .option-container::-webkit-scrollbar-thumb{
-	background-color: #a2a3a7;
-	border-radius: 25px;
-}
-
-.select-box .option,
-.selected{
-	padding: 5px 15px;
-	cursor: pointer;
-}
-
-.select-box .option:hover{
-	color: #01532f;
-	transition: all 0.3s;
-}
-
-.select-box label{
-	cursor: pointer;
-}
-
-.select-box .option .radio{
-	display: none;
-}
