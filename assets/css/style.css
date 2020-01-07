@@ -44,10 +44,22 @@ body, html{
 
 .font-xxl{font-size: 56px;}
 .font-xl{font-size: 40px;}
-.font-lg{font-size: 32px;}
-.font-md{font-size: 24px;}
-.font-sm{font-size: 16px;}
-.font-xs{font-size: 12px;}
+.font-lg{
+	font-size: 32px;
+	line-height: 1.13;
+}
+.font-md{
+	font-size: 24px;
+	line-height: 1.2;
+}
+.font-sm{
+	font-size: 16px;
+	line-height: line-height: 1.5;
+}
+.font-xs{
+	font-size: 12px;
+	line-height: 1.5;
+}
 
 .font-vertical{
 	writing-mode: vertical-lr;
@@ -236,6 +248,7 @@ a,a:hover{
 }
 #navbar:hover #logo{
 	margin-top: 5vh;
+	margin-left: 20px;
 }
 #navbar:hover .nav-menu-icon{
 	display: none;
@@ -278,11 +291,13 @@ a,a:hover{
 .nav-bottom a{
 	padding: 0 15px;
 }
-
+ 
 #background{
 	background-image: url(../images/bg/home.jpg);
 	background-size: cover;
 	background-position: center;
+	width: 93vw;
+	overflow: hidden;
 }
 
 .menu-child{
@@ -397,8 +412,7 @@ a,a:hover{
 }
 .sejarah-col{
 	width: 250px;
-	padding-right: 40px;
-	padding-top: 40px;
+	padding: 40px 20px 0;
 	display: inline-block;
 }
 
@@ -411,12 +425,13 @@ a,a:hover{
 	opacity: 0;
 }
 
+
 .award-col{
 	margin-top: 25px;
 	width: 250px;
-	border-right: 1px solid #a1a1a1;
-	border-left: 1px solid #a1a1a1;
-	padding: 20px;
+	border-right: 1px solid #CACECE;
+	border-left: 1px solid #CACECE;
+	padding: 22px;
 	display: inline-block;
 	margin-left: -5px;
 	vertical-align: top;
@@ -433,14 +448,16 @@ a,a:hover{
 	margin-right: 20px;
 }
 
+
+
 .produk-text,.product-col{
 	display: inline-block;
 }
 .product-col{
 	width: 250px;
-	border-right: 1px solid #a1a1a1;
-	border-left: 1px solid #a1a1a1;
-	padding: 20px;
+	border-right: 1px solid #CECACA;
+	border-left: 1px solid #CECACA;
+	padding: 23px;
 	display: inline-block;
 	margin-left: -5px;
 	vertical-align: top;
@@ -493,7 +510,11 @@ a,a:hover{
 }
 
 .berita .berita-featured{
-	width: 1000px;
+	width: 1076px;
+}
+
+.berita .berita-featured .peduli-desc{
+	width: 645px;
 }
 
 .berita .bf-featured-col{
@@ -557,8 +578,16 @@ a,a:hover{
 	margin-top: 0px;
 }
 .berita .berita-panel-text{
-	width: 55%;
-	padding: 15px;
+	position: relative;
+	width: 300px;
+	height: 130px;
+	margin: 19px;
+}
+
+.berita .berita-panel-text .link-selanjutnya{
+	position: absolute;
+	bottom: -10px;
+	right: 5px;
 }
 .berita .link-selanjutnya{
 	position: absolute;
@@ -721,7 +750,7 @@ a,a:hover{
 .peduli #kantorMap{
 	position: fixed !important	;
 	width: 950px !important;
-	height: 470px !important;
+	height: 450px !important;
 	bottom: 0px !important;
 	left: 0px !important;
 	z-index: 1 !important;
@@ -1507,9 +1536,6 @@ li .textcheck p{
 }
 
 
-.font-xs{
-	font-size: 9.5px;
-}
 .card .content-card-content{
 	padding-left: 1vw;
 	height: 12vh;
@@ -1876,6 +1902,11 @@ li .textcheck p{
 	position: relative;
 	overflow: visible;
 }
+
+.peduli .berita-col{
+	width: 600px !important;
+}
+
 .peduli .berita-panel img:nth-child(1){
 	border-radius: 10px 0 0 10px;
 }
