@@ -271,7 +271,7 @@ a,a:hover{
 	background-image: url(../images/bg/home.jpg);
 	background-size: cover;
 	background-position: center;
-	width: 93vw;
+	height: 100vh;
 	overflow: hidden;
 }
 
@@ -834,7 +834,7 @@ a,a:hover{
 }
 
 #box4 .bg-full{
-	margin-top: 5vh;
+	margin-top: 4vh;
 	background-image: url(../images/gedung/page-gedung5.jpg);
 	background-size: cover;
 	background-position: bottom;
@@ -845,7 +845,7 @@ a,a:hover{
 	background-image: url(../images/gedung/page-gedung6.jpg);
 	background-size: 80%;
 	background-position: center;
-	height: 77vh !important;
+	height: 83vh !important;
 	background-repeat: no-repeat;
 }
 /*end tentang_gedung*/
