@@ -400,6 +400,9 @@ a,a:hover{
 	opacity: 0;
 }
 
+#sejarah .award-col{
+	border: none !important;
+}
 
 .award-col{
 	margin-top: 25px;
@@ -637,7 +640,7 @@ a,a:hover{
 
 #kantorMap{
 	/*position: fixed;*/
-	width: 92.7vw;
+	width: auto;
 	overflow: hidden;
 	height: 100vh;
 }
@@ -1438,6 +1441,7 @@ li .textcheck p{
 }
 
 .berita_pers .box2 .head-text{
+	margin-top: 5px;
 	font-size: 12px; 
 	padding-left: 5px !important;
 	margin-bottom: 10px;
@@ -1467,84 +1471,105 @@ li .textcheck p{
 
 /* produk detail */
 .produk_detail{
-	padding: 0px !important
-	margin-left: 5vw;
-	padding: 5vh 5vw 5vh 12vw;
-	height: 100vh !important;
-	width: 100vw !important;
+	height: 100vh;
+	width: 128vw;
+}
+
+.produk_detail .row{
+	margin: 0px !important;
+}
+
+.produk_detail .header-produk{
+	width: 93vw;
+	height: 10vh;
+	padding: 30px 0px 0 20px ;
+}
+
+.produk_detail .content{
+	height: 90vh;
+	padding: 25px  30px 0  40px;
+	width: auto;
+}
+
+.produk_detail .produk-col{
+	width: 480px;
 	display: inline-block;
-	background-image: url(../images/bg.png);
-	background-position: bottom;
-	background-size: auto 50%;
-	background-repeat: repeat-x;
+	margin-right: 25px;
+}
+
+.produk_detail .produk-panel{
+	position: relative;
+	overflow: visible;
+	height: 25vh;
+	width: auto;
+	background-color: #ffffff;
+	margin-bottom: 25px;
+	border-radius: 8px;;
+}
+
+.produk_detail .produk-panel .row{
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+.produk-panel .img-panel{
+	position: absolute;
+	left: 0;
+	height: 23vh;
+	border-radius: 8px 0 0 8px;
 	overflow: hidden;
 }
 
-.produk_detail .box-header{
-	padding-top: 2vh;
-	height: 10vh;
-}
-
-.produk_detail .btn-outline-success{
-	margin-top: 8px;
-	margin-left: 60px;
-	border: 1.5px solid green;
-	background-color: #e7ece6;
-	border-radius: 20px;
-}
-
-.produk_detail .card{
-	background-color: #ffffff;
-	width: 27vw;
-	height: 24vh;
-	border-radius: 5px;
-	margin-top: 2.5vh;
+.produk-panel .box-content{
+	padding: 10px;
 	position: relative;
 }
+.produk-panel .content-panel{
+	width: 300px;
+	margin-left: 15px;
+	margin-top: 5px;;
+	overflow: scroll;
+}
 
-.shadow-img{
-	height: 10%;
+.produk-panel .header-panel{
+	padding-top: 5px;
+}
+.produk-panel .shadow-img{
 	position: absolute;
-	width: 70%;
-	left: 15%;
-	right: 15%;
-	bottom: -15.5px;
-	opacity: 0.3;
+	width: 80%;
+	height: 15px;
+	left: 10%;
+	right: 10%;
+	bottom: -15px;;
+	opacity: 0.4;
 }
 
-.produk_detail .card .cat-img{
-	height: 20vh;
-}
-
-.card .head-card-content{
-	height: 5vh;
-	padding-left: 1vw;
-	padding-top: 0.5vh;
-	padding-right: 0.5vw;
-}
-
-
-.card .content-card-content{
-	padding-left: 1vw;
-	height: 12vh;
-	overflow: hidden;
-	margin-bottom: 0.5vh;
-}
-
-
-.produk_detail .card .btn-produk{
-	margin-left: 1vw;
+.produk-panel .btn-produk{
+	position: absolute;
+	left: 10%;
 	border-radius: 25px;
-	padding: 3px 4vw;
+	padding: 3.5px 8vw;
 	background-color: #ffffff;
 	border: 1px solid #01532f; 
 }
 
-.card .btn-produk:hover{
+.produk-panel .btn-produk:hover{
 	transition: all 0.5s;
 	background-color: #01532f;
 	color: #ffffff;
+} 
+
+.header-produk .btn-outline-success{
+	margin-left: 60px;
+	border: 2px solid #105C3B;
+	background-color: #e7ece6;
+	border-radius: 20px;
 }
+
+.header-produk ul, .header-produk li{
+	line-height: 1;
+}
+
 /* end produk detail */
 
 
