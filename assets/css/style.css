@@ -129,6 +129,12 @@ a,a:hover{
 	border-radius: 100px;
 	padding: 5px 15px;
 }
+.button-block{
+	display: inline-block;
+	width: 100% !important;
+	text-align: center;
+}
+
 .button.button-block{
 	display: inline-block;
 	width: 100% !important;
@@ -1258,7 +1264,89 @@ li .textcheck p{
 
 
 /* produk_detail_warna */
-.detail_warna{
+.detail_warna .header p{
+	padding: 20px 0 20px 160px;
+}
+
+.detail_warna .box-warna{
+	height: 85vh;
+	position: relative;
+}
+
+.detail_warna .box-warna .card-warna{
+	background-color: #cec8b2;
+	position: absolute;
+	width: 80%;
+	height: 220px;
+	left: 10%;
+}
+
+.box-warna .card-warna span{
+	position: absolute;
+	bottom: 10px;
+	left: 12px;
+}
+
+.detail_warna .box-card{
+	height: 85vh;
+}
+
+.detail_warna .box-card .card-produk{
+	position: relative;
+	height: 31%;
+	width: 95%;
+	margin: 0 0 20px 5px;
+	border-radius: 8px;
+	background-color: #ffffff;
+}
+
+.detail_warna .box-card .card-produk .box-img-produk{
+	position: relative;
+	height: 23vh;
+	border-radius: 8px 0 0 8px;
+	overflow: hidden;
+}
+
+.detail_warna .box-card .card-produk .cat-img{
+	position: absolute;
+	width: 100%;
+	top: 5%;
+}
+
+.detail_warna .box-card .card-produk .box-desc-produk{
+	position: relative;
+	height: 23vh;
+	padding: 15px 25px 15px 10px;
+	border-radius: 0 8px 8px 0;
+}
+
+.detail_warna .box-card .card-produk .box-desc-produk .btn-produk{
+	border: 1px solid #0D5A38;
+	border-radius: 25px;
+	padding: 4px 30% 3px;
+	background-color: #ffffff;
+} 
+
+.detail_warna .box-card .card-produk .box-desc-produk .btn-produk:hover{
+	background-color: #0D5A38;
+	color: #ffffff;
+	transition: all 0.4s;
+}
+
+
+.detail_warna .box-card .card-produk .shadow-img{
+	position: absolute;
+	width: 80%;
+	height: 15px;
+	left: 10%;
+	right: 10%;
+	bottom: -15px;
+	opacity: 0.3;
+}
+
+
+
+/* .detail_warna{
 	background-image: url(../images/bg.png);
 	background-size: 50%;
 	background-repeat: repeat-x;
@@ -1333,7 +1421,7 @@ li .textcheck p{
 	transition: all 0.3s;
 	background-color: #01532f;
 	color: white;
-}
+} */
 /* end_detail_warna */
 
 
