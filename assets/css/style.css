@@ -426,6 +426,9 @@ a,a:hover{
 	margin-right: 20px;
 }
 
+.produk .pad-top{
+	padding-top: 75px;
+}
 
 
 .produk-text,.product-col{
@@ -1581,11 +1584,42 @@ li .textcheck p{
 	padding-left: 1.5vw;
 }
 
+.produk_detail_produk .img-box{
+	height: 30%;
+	position: relative;
+}
+
+.produk_detail_produk .img-box img{
+	width: 60%;
+	left: 20%;
+	right: 20%;
+	top: 5%;
+	position: absolute;
+	
+}
+
+.produk_detail_produk .desc-produk{
+	position: relative;
+	height: 30px;
+}
+
+.produk_detail_produk .desc-produk .kiri{
+	position: absolute;
+	left: 0px;
+}
+
+.produk_detail_produk .desc-produk .kanan{
+	position: absolute;
+	left: 55%;
+	padding: 0px !important;
+}
+
 .produk_detail_produk .box0{
 	height: 89vh;
 	width: 85vw;
 	margin: 2.5vh 2.5vw;
 }
+
 
 .produk_detail_produk .card-detail{
 	height: 89vh;
@@ -1614,13 +1648,6 @@ li .textcheck p{
 	height: 30vh
 }
 
-
-
-.produk_detail_produk .desc-card{
-	margin-left: 10px;
-	margin-top: 15px;
-}
-
 .produk_detail_produk .desc-card .row, .produk_detail_produk .desc-card p{
 	padding: 0px !important;
 	margin: 0px !important;
@@ -1631,8 +1658,8 @@ li .textcheck p{
 }
 
 .produk_detail_produk .desc-card .calculator-box{
-	height: 15vh;
-	padding-top: 2vh;
+	height: 13vh;
+	padding-top: 1vh;
 }
 
 #btn-calculator{
@@ -1689,6 +1716,9 @@ li .textcheck p{
 }
 /* end produk detail produk */
 
+.berita .margin-top{
+	margin-top: 0px;
+}
 
 /* berita artikel */
 .berita_artikel{
@@ -1819,8 +1849,8 @@ li .textcheck p{
 /* /end popup detail produk*/
 
 .img-icon{
-	width: 15px;
-	margin-right: 5px;
+	width: 12px;
+	margin-right: 3px;
 }
 
 .bg-batik{
